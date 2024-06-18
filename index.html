@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Review Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script defer src="Search.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Music Reviews</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<section class="search-section">
+            <input type="text" id="search-input" placeholder="Search by artist or song title...">
+            <button id="search-button">Search</button>
+        </section>
+
+
+        <section class="reviews-list">
+            <div class="review" data-artist="XXXTentacion" data-title="Moonlight">
+                <h2><a href="I_Had_Some_Help.html">I Had Some Help - Post Malone</a></h2>
+                <p class="date">Released: Sept 30, 2018</p>
+                <p class="rating">Rating: &#x2605&#x2605&#x2605&#x2605&#x2605</p>
+                <p class="review-text">
+                    His voice, raw and full of emotion, conveys a sense of authenticity that is rare in today's music scene. 
+                    The lyrics are deeply personal, reflecting on the struggles that come with love and the inevitable heart break. 
+                    It's a narrative that resonates with anyone who has had a heart break and come out stronger on the other side.
+                </p>
+                <a href="I_Had_Some_Help.html" class="read-more">Read More</a>
+            </div>
+            <!-- Repeat the above div for more reviews, making sure to include the correct data-artist and data-title attributes -->
+        </section>
+
+
+        <section class="reviews-list">
+            <div class="review" data-artist="XXXTentacion" data-title="Moonlight">
+                <h2><a href="Moonlight.html">Moonlight - XXXTentacion</a></h2>
+                <p class="date">Released: May 25, 2024</p>
+                <p class="rating">Rating: &#x2605&#x2605&#x2605&#x2605&#x2605 </p>
+                <p class="review-text">
+                    XXXTentacion's ability to fuse elements of hip-hop, R&B, and alternative music showcases his lyrical genius. 
+                    With beats and vocals this mezmorising, he creates a sound that is uniquely his own.  
+                </p>
+                <a href="Moonlight.html" class="read-more">Read More</a>
+            </div>
+            <!-- Repeat the above div for more reviews, making sure to include the correct data-artist and data-title attributes -->
+        </section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Music Review Website. All rights reserved.</p>
+        <p> Feel free to <a href="Contact_Us.html">Contact Us</a> with any questions or concerns.</p>
+        <p>Follow us on <a href="#">Twitter</a>, <a href="#">Facebook</a>, and <a href="#">Instagram</a>.</p>
+    </footer>
+</body>
+</html>
+
